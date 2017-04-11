@@ -8,5 +8,6 @@
         public string Language { get; set; }
         public int YearOfPublishing { get; set; }
         public Author Author { get; set; }
+        public int AuthorId { get; set; }
     }
 }

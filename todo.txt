@@ -1,0 +1,20 @@
+BooksLibrary:
+
+- zaimplementowac model i warstwe DAL - dane w pamieci
+- zaimplementowac model i warstwe DAL -  wersja oparta o pliki tekstowe i JSON
+- utworzyc projekt webowy, zeby przetestowac DAL
+- utworzyc warstwe posrednia miedzy projektem webowym a warstwa DAL (jakis business layer/ infrastructure)
+- utworzyc projekt testowy do warstwy posredniej
+- wyswietlanie listy ksiazek (pure MVC)
+- dodawanie ksiazki
+- uuswanie ksiazki
+
+ 
+
+- skonfigurowac jakies mechanizmy weryfikujace jakosc kodu
+- zaimplementowac model i warstwe DAL - druga wersja oparta o EntityFramework
+
+
+
+
+? jak testowac (Unit testy) warstwe DAL?

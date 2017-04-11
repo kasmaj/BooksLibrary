@@ -1,1 +1,6 @@
 /BooksLibrary/BooksLibrary.Domain/obj/Debug
+
+/BooksLibrary/BooksLibrary.Domain/bin/Debug
+/BooksLibrary/DAL/bin/Debug
+/BooksLibrary/DAL/obj/Debug
+/BooksLibrary/BooksLibrary.Domain/BooksLibrary.Domain.csproj.user
