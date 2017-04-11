@@ -5,16 +5,7 @@ namespace DAL
 {
     public class DataContext
     {
-        private Collection<Author> _authors;
-        private Collection<Book> _books;
-
-        public DataContext()
-        {
-            _authors = InitializeAuthorsDataContext();
-            _books = InitializeBooksDataContext();
-        }
-
-        private Collection<Book> InitializeBooksDataContext()
+        public static Collection<Book> CreateBooksDataContext()
         {
             return new Collection<Book>
             {
@@ -27,9 +18,9 @@ namespace DAL
             };
         }
 
-        private Collection<Author> InitializeAuthorsDataContext()
+        public static Collection<Author> CreateAuthorsDataContext()
         {
-            return _authors = new Collection<Author>
+            return new Collection<Author>
             {
                 new Author {Id = 1, FirstName = "Frank", LastName = "Herbert"},
                 new Author{},
